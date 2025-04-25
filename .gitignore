@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 환경 설정 파일
+.env
+.env.local
+.env.*.local
+
+# 빌드 결과물
+dist/
+build/
+
+# IDE 설정
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS 별
+.DS_Store
+Thumbs.db
+
+# 기타 로그나 캐시
+logs/
+*.log
+*.tsbuildinfo
+
+# 테스트 커버리지
+coverage/
+
+# 백업 파일
+*.bak
+*.tmp
+*.swp
+
+# 타입스크립트
+*.tsbuildinfo
+
+# 리액트 프로젝트 추가
+public/static/
